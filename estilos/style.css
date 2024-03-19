@@ -16,7 +16,6 @@ body {
     background-size: cover; /*COBRE A TELA TODA*/
     background-attachment: fixed;
     margin: 0px; /*TIROU A BARRA DE ROLAGEM E FAIXA PRETA*/
-
 }
 main { /* CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
     height: 100vh; 
