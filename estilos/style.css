@@ -1,5 +1,6 @@
-@charset "UTF-8"
-* { margin: 0px; padding: 0px;
+@charset "UTF-8";
+* { 
+    margin: 0px; padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 } /*confirguração geral do site*/ 
 html, body {
@@ -19,7 +20,7 @@ main { /* CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
     display: flex;
          justify-content: center;
          align-items: center;
-}
+        }
 section#telefone {
     height: 627px;
     width: 311px;
@@ -28,5 +29,13 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*ESSA CONFIG QUE DEIXA NO CENTRO INDEPENDENTE DO TAMANHO DA TELA/ CLOCAR POSITION RELATIVE NO MAIN*/ 
+    transform: translate(-50%, -50%); 
+}
+/*ESSA CONFIG QUE DEIXA NO CENTRO INDEPENDENTE DO TAMANHO DA TELA/ CLOCAR POSITION RELATIVE NO MAIN*/ 
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 22px; /*POSICIONOU EM CIMA E LATERAL E*/
+    width: 265px;
+    height:469px ; /*TAMANHO DA IMAGEM PARA PREENCHER O FRAME*/
 }
