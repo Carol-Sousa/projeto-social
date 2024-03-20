@@ -37,7 +37,7 @@ iframe#tela {
     top: 81px;
     left: 22px; /*POSICIONOU EM CIMA E LATERAL E*/
     width: 267px;
-    height:469px ; /*TAMANHO DA IMAGEM PARA PREENCHER O FRAME*/
+    height:469px ; /* TESTANDO - TAMANHO DA IMAGEM PARA PREENCHER O FRAME*/
 }
 section#redes-sociais {
    text-align:right;
